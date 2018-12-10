@@ -35,7 +35,7 @@ Notice that the current build status is `failing`
   ```
   - Save and commit change to master (i.e. Scroll to the bottom of the page and press `commit changes`)
   - Go back to the repo's main page (e.g. https://github.com/breadplop/vue-deployment-check) and wait for about 3 minutes
-  - Refresh the main page and you should see `build:failing`
+  - Refresh the main page and you should see `build:failing`. Click on it to view the failed tests and coverage report.
   
 ### 4. Edit `main.spec.js` file to change build status to `passing`
   - Go to `main.spec.js` file and change line 6 to `expect(2).toEqual(3);` to `expect(2).toEqual(2);`
